@@ -1,3 +1,128 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
-html {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff;
+  font-family: "Manrope", sans-serif;
+}
+
+nav {
+  padding: 3rem;
+  border-bottom: 1px solid rgb(220, 215, 215);
+  width: 100%;
+  height: 8rem;
+}
+.navbar img {
+  margin-left: 4rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  list-style-type: none;
+  gap: 7rem;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+.buttons {
+  background-color: #6fc247;
+  color: #fff;
+  border-radius: 0.9rem;
+  width: 11rem;
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+.container {
+  text-align: center;
+  /* margin: 0 auto; */
+  margin-top: 2rem;
+}
+.container h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+p {
+  padding-bottom: 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.button_container {
+  /* padding: 1rem; */
+  font-size: 2rem;
+}
+#button {
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.9rem;
+  color: #6fc247;
+  width: 11rem;
+  font-size: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #6fc247;
+  cursor: pointer;
+}
+.landing_img img {
+  width: 100%;
+}
+.worked_with {
+  text-align: center;
+  margin: 2rem;
+}
+.worked_with h2 {
+  font-size: 2rem;
+  color: #373737;
+}
+.worked_with p {
+  color: #373737;
+  font-size: 1.4rem;
+  margin: 1.5rem;
+}
+.firm_logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.firm {
+  font-size: 1rem;
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border: 1px solid red;
+  margin: 0 2rem 2rem 0;
+}
+
+.firm_logo img {
+  width: 100%;
+}
+.abt_valutico {
+  background-color: #111;
+  color: #fff;
+  padding: 2rem;
+}
+.abt_valutico h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+.abt_valutico p {
+  font-weight: 400;
+}
+.col {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
