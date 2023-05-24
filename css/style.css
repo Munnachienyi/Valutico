@@ -93,12 +93,11 @@ p {
   margin: 1.5rem;
 }
 .firm_logo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 .firm {
-  font-size: 1rem;
+  /* font-size: 1rem; */
   background-color: #f9f9f9;
   padding: 1rem;
   border: 1px solid red;
@@ -106,7 +105,8 @@ p {
 }
 
 .firm_logo img {
-  width: 100%;
+  /* width: 7rem; */
+  
 }
 .abt_valutico {
   background-color: #111;
