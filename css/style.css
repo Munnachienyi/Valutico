@@ -100,13 +100,13 @@ p {
   /* font-size: 1rem; */
   background-color: #f9f9f9;
   padding: 1rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0 2rem 2rem 0;
 }
 
 .firm_logo img {
-  /* width: 7rem; */
-  
+  width: 8rem;
+  object-fit: contain;
 }
 .abt_valutico {
   background-color: #111;
